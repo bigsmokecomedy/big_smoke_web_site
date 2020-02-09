@@ -5,3 +5,6 @@ services:
     build:
       context: .
       target: gatsby
+    volumes:
+      - ./src:/src
+    entrypoint: /bin/bash
